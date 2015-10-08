@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  get 'atmospheric_pages/home'
+
+  get 'atmospheric_pages/gallery'
+
+  get 'atmospheric_pages/contact'
+
+  get 'atmospheric_pages/about'
+
+  get 'atmospheric_pages/qoute'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
