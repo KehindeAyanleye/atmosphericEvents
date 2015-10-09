@@ -11,10 +11,14 @@ group :development, :test do
 	
 	# Use Rspec
 	gem 'rspec-rails',      ">= 2.0.0.beta"
+
+	# Guard Rspec
+	gem 'guard-rspec', '~> 4.6.4'
 end
 
 
-# Gems used only for assets and not required # in production environments by default.
+# Gems used only for assets and not required
+# in production environments by default.
 
 group :assets do
 	# Use SCSS for stylesheets
@@ -31,13 +35,14 @@ end
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
+	gem 'rb-fsevent', '~> 0.9.6'
 end
 
 group :production do
 	gem 'pg', '~> 0.18.3'
 end
 
-
+gem 'foundation-rails'
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
