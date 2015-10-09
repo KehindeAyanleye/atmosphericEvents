@@ -13,4 +13,8 @@ class AtmosphericPagesController < ApplicationController
 
   def qoute
   end
+
+  def love
+  end
+
 end
