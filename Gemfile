@@ -43,6 +43,8 @@ group :production do
 end
 
 gem 'foundation-rails'
+gem 'angularjs-rails', '~> 1.4.4'
+gem "bower-rails", "~> 0.10.0"
 
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

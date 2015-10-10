@@ -26,10 +26,15 @@
         <section class="top-bar-section">
           <!-- Right Nav Section -->
           <ul class="right">
-            <li class="active"><%= link_to 'SERVICE', atmospheric_pages_gallery_path %></li>
-            <li class="active"><%= link_to 'GALLERY', atmospheric_pages_gallery_path %></li>
-            <li class="active"><%= link_to 'CONTACT', atmospheric_pages_contact_path %></li>
-            <li class="active"><%= link_to 'ABOUT', atmospheric_pages_about_path %></li>
+            <!-- <li><%= link_to 'SERVICE', atmospheric_pages_gallery_path, class: "menu-item-active" %></li>
+            <li><%= link_to 'GALLERY', atmospheric_pages_gallery_path, class: "menu-item-active" %></li>
+            <li><%= link_to 'CONTACT', atmospheric_pages_contact_path, class: "menu-item-active" %></li>
+            <li><%= link_to 'ABOUT', atmospheric_pages_about_path, class: "menu-item-active" %></li> -->
+
+            <li><a nav-item nav-item-route="/" nav-item-class="menu-item-active" href="#/">HOME</a></li>
+            <li><a nav-item nav-item-route="/atmospheric_pages/gallery" nav-item-class="menu-item-active" href="#/">GALLERY</a></li>
+            <li><a nav-item nav-item-route="/" nav-item-class="menu-item-active" href="#/">CONTACT</a></li>
+
           </ul>
 
           <!-- Left Nav Section -->
