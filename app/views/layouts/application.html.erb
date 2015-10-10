@@ -13,8 +13,50 @@
   </head>
 
   <body>
+      
+     <header id="header">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="logo">
+            <a href="/" title="Atmospheric events : Makes every moment count">Atmospheric events</a>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li class="active"><%= link_to 'SERVICE', atmospheric_pages_gallery_path %></li>
+            <li class="active"><%= link_to 'GALLERY', atmospheric_pages_gallery_path %></li>
+            <li class="active"><%= link_to 'CONTACT', atmospheric_pages_contact_path %></li>
+            <li class="active"><%= link_to 'ABOUT', atmospheric_pages_about_path %></li>
+          </ul>
 
-    <%= yield %>
+          <!-- Left Nav Section -->
+          <!-- <ul class="left">
+          <li><a href="#">Left Nav Button</a></li>
+          </ul> -->
+        </section>
+      </nav>
+     </header>
+
+
+     <section id="content">
+        <%= yield %>
+     </section>
+
+     <footer id="footer">
+       
+     </footer>
+      
+
 
   </body>
 </html>
+
+<nav class="main">
+        <div class="logo"></div>       
+        <ul class="nav-bar right"></ul>       
+     </nav>
+
+
