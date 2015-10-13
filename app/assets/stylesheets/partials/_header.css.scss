@@ -1,0 +1,12 @@
+.top-bar{
+	box-shadow: 0 0.1px 2px;
+	.logo{
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: rem-calc(250px);
+	}
+	ul{
+		line-height: inherit;
+	}
+}
