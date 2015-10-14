@@ -1,0 +1,48 @@
+.home-images{
+	.fa{
+		position: absolute;
+		bottom: $ab50Per;
+		margin-bottom: $abM50Px;
+		z-index: 100;
+		color: rgba(255,255,255,0.8);
+		font-size: 50px;
+	}
+	.fa-left{right:95%;}
+	.fa-right{left:95%;}
+	
+	ul{
+		display: none !important;
+	}
+	.image-slider {
+		.vertical-lineDown{
+		@extend .fa;
+		bottom: 10%;
+		margin-bottom: -100px;
+		border-right: 1px solid white;
+		height: 50px;
+		display: block;
+		left: 50%;
+		}
+		.vertical-lineUp	{
+		@extend .fa;
+		bottom: -10%;
+		margin-bottom: 100px;
+		border-right: 1px solid white;
+		height: 50px;
+		display: block;
+		left: 50%;
+		}
+		p {
+		@extend .fa;
+		font-size: 20px;
+		text-align:center;
+		letter-spacing: 1px;
+		color: white;
+
+			span{
+				display: block;
+				font-size: 70px;
+				}
+		}
+	}
+}

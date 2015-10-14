@@ -20,6 +20,7 @@ end
   	gem 'active_link_to', '~> 1.0.3'
 	gem 'jquery-rails'
 	gem "jquery-slick-rails"
+	gem "font-awesome-rails"
 
 
 group :test do
