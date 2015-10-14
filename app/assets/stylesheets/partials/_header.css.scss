@@ -1,0 +1,17 @@
+.top-bar{
+	.title-area{
+		padding: rem-calc(15px 0);
+		.logo{ background-repeat: no-repeat; background-size: contain; background-position: center; width: rem-calc(250px);}
+		ul{line-height: inherit;}
+	}
+	.top-bar-section{
+		.right{padding: rem-calc(15px 0);}
+		a{letter-spacing: 1.5px; font-size: 11px;}
+	}
+}
+
+#header{
+	background-color: $white;
+	box-shadow: 0 0.1px 2px;
+}
+

@@ -9,14 +9,14 @@ Rails.application.routes.draw do
 
   get 'atmospheric_pages/qoute'
 
-  get 'atmospheric_pages/love'
+  get 'atmospheric_pages/service'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root "atmospheric_pages#home"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
