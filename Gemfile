@@ -8,6 +8,8 @@ group :development, :test do
 	gem 'sqlite3', '~> 1.3.10'
 	gem 'rspec-rails',      ">= 2.0.0.beta"
 	gem 'guard-rspec', '~> 4.6.4'
+	gem 'better_errors', '~> 2.1', '>= 2.1.1'
+	gem 'capistrano', '~> 3.4.0'
 end
 
 
