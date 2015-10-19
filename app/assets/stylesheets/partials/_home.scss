@@ -54,19 +54,18 @@
 			}
 
 		}
-	}
-	
-	.qouteButton{
-	margin: 0;
-	margin-bottom: -50px;
-	bottom: -80%;
-	position: absolute;
-	left: -75px;
-	margin-left: 50%;
-	border-radius: 50px;
-	background-color: white;
-	color: $atmosphericDark;
-	font-weight: 500;
+
+		.qouteButton{
+			position: absolute;
+			bottom: -10%;
+			margin: 0;
+			left: -75px;
+			margin-left: 50%;
+			border-radius: 50px;
+			background-color: white;
+			color: $atmosphericDark;
+			font-weight: 500;
+		}
 	}
 
 }

@@ -1,21 +1,11 @@
-// footer{
-// 	background-color: $atmosphericDark;
-// 	width: 100%;
-// 	padding: rem-calc(25px 0);
-// 	.columns{
-// 		padding:0 5px;
-// 		p{
-// 			display: inline-block;
-// 			font-weight: bold;
-// 			letter-spacing: rem-calc(0.5px);
-// 			color: $oil;
-// 			font-size: rem-calc(12px);
-// 			margin: 0 0 0 5px;
-// 		}
-// 		.inline-list{margin: 0; font-size: 12px; font-weight: bold; a{color: $oil; letter-spacing: 1px; margin: 5px;}} 
-// 		.fa{
-// 			color: white;
-// 			font-size: 15px;
-// 		}
-// 	}
-// }
+.main-footer{
+	background-color: $atmosphericDark;
+	width: 100%;
+	padding: rem-calc(25px 0);
+	.footer-center{text-align: center;}
+	.footer-right{float: right; padding: rem-calc(10px);}
+	.footer-inline{margin: 0; font-size: 12px; font-weight: bold; a{color: $charcoal; letter-spacing: 1px; margin: 5px;}} 
+	.fa{ color: $charcoal; font-size: 15px;}
+	p{ display: inline; font-weight: bold; letter-spacing: rem-calc(0.5px); color: $charcoal; font-size: rem-calc(12px); margin: 0 0 0 5px; }
+	img{width:30px;}
+}
