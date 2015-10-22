@@ -1,7 +1,15 @@
 .qouteWrapper{
 	background-color: $atmosphericYellow;
 	text-align: center;
-	.qouteTitle{
+	height: 100vh;
+	padding: rem-calc(100px 0);
 
+	.qoute-title{
+		
 	}
+	.qoute-title-content{
+		padding: rem-calc(0 400px);
+		span{font-weight: bold;}
+	}
+	
 }
