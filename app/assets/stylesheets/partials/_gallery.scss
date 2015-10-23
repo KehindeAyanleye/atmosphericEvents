@@ -1,5 +1,5 @@
-.gallery-wrapper{
-	.gallery-image-wrapper{
+.a-gallery-wrapper{
+	.a-gallery-image-wrapper{
 	background-image: url("https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&fm=jpg&s=b91323d5c3f24a32a15a05ce7b122631");
 	width: 100%;
 	min-height: 400px;
@@ -7,7 +7,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	}
-	.gallery-head-section{
+	.a-gallery-head-section{
 		margin: rem-calc(25px 0);
 		h1{
 			font-weight: bold;
@@ -44,11 +44,11 @@
 			font-size: 14px;
 
 		}
-		.gallary-sub-head-section{
+		.a-gallary-sub-head-section{
 			letter-spacing: 0.5px;
 			line-height: 300%;
 			font-size: 12px;
-			.gallery-nav{
+			.a-gallery-nav{
 				vertical-align: text-top;
 				span{
 					margin: rem-calc(0 10px);

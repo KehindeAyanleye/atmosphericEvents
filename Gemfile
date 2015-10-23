@@ -27,6 +27,7 @@ end
 	gem "font-awesome-rails"
 	gem 'sprockets-rails', :require => 'sprockets/railtie'
 	gem 'oj'
+	gem 'masonry-rails'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
