@@ -1,7 +1,7 @@
 .qouteWrapper{
 	background-color: $atmosphericYellow;
 	text-align: center;
-	height: 100vh;
+	height: 100%;
 	padding: rem-calc(100px 0);
 
 	.qoute-title{
@@ -11,5 +11,41 @@
 		padding: rem-calc(0 400px);
 		span{font-weight: bold;}
 	}
-	
+	.qoute-form-wrapper{
+		padding: rem-calc(50px);
+		margin: 5% 11.5%;
+		background-color:$atmosphericQouteBlue;
+		p{margin-bottom: 0;}
+		.qoute-form-title{
+			color:white;
+			margin-bottom: rem-calc(50px);
+			i{
+				font-size: 35px;
+				margin-right: rem-calc(25px);
+				color: $atmosphericYellow;
+			}
+			p{
+				font-size: 35px;
+				display: inline-block;
+			}
+		}
+		input[type="text"] {
+			background-color: $atmosphericQouteBlue;
+			border: 0 solid $atmosphericQouteBlue;
+			color: $atmosphericYellow;
+			font-weight: 400;
+			letter-spacing: rem-calc(2px);
+			
+		}
+		textarea{
+			@extend input[type="text"];
+		}
+		button{
+			background-color: white;
+			color: $atmosphericQouteBlue;
+			font-weight: bold;
+			letter-spacing: 2px;
+			margin-top: rem-calc(50px);
+		}
+	}
 }
