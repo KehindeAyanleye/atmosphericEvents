@@ -1,20 +1,26 @@
 .qouteWrapper{
 	background-color: $atmosphericYellow;
 	text-align: center;
-	height: 100%;
-	padding: rem-calc(100px 0);
+	height: 100vh;
+	padding: rem-calc(25px 0);
 
-	.qoute-title{
-		
-	}
 	.qoute-title-content{
 		padding: rem-calc(0 400px);
 		span{font-weight: bold;}
 	}
+
 	.qoute-form-wrapper{
-		padding: rem-calc(50px);
-		margin: 5% 11.5%;
 		background-color:$atmosphericQouteBlue;
+		position:absolute;
+		padding: 20px;
+		color:white;
+		width: 100%;
+		height: 100%;
+
+		  .next-button{
+		    margin-top: rem-calc(50px);
+		  }
+
 		p{margin-bottom: 0;}
 		.qoute-form-title{
 			color:white;
@@ -60,3 +66,25 @@
 }
 
 
+
+#slide2 {
+  position:absolute;
+  top:0;
+  right:0;
+  width:0;
+  height:100%;
+  color:white;
+}
+
+
+.slide {
+  transition:width 1s linear;
+}
+
+.current {
+  width:100% !important;
+}
+
+.hidden {
+  overflow:hidden;
+}
