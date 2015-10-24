@@ -2,7 +2,7 @@
 	background-color: $atmosphericYellow;
 	text-align: center;
 	height: 100vh;
-	padding: rem-calc(25px 0);
+	padding: rem-calc(100px 0 25px 0);
 
 	.qoute-title{
 		font-family: 'Merriweather', serif; 
@@ -32,8 +32,8 @@
 			margin-bottom: rem-calc(50px);
 			margin-top: rem-calc(25px);
 			i{
-				font-size: 35px;
-				margin-right: rem-calc(25px);
+				font-size: 34.5px;
+				margin-right: rem-calc(20px);
 				color: $atmosphericYellow;
 			}
 			p{
