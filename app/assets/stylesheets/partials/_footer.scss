@@ -1,5 +1,5 @@
 .main-footer{
-	background-color: $atmosphericBlack;
+	// background-color: $atmosphericBlack;
 	width: 100%;
 	padding: rem-calc(50px 0);
 	
@@ -19,12 +19,12 @@
 			color: $charcoal;
 			letter-spacing: 1px;
 			margin: 5px;
-			vertical-align: text-top;
+			vertical-align: text-top;	
 		}
 	} 
 	
 	.fa{
-		color: $charcoal;
+		color: rgba(255,255,255,0.7);
 		font-size: 14.5px;
 	}
 	
@@ -32,7 +32,7 @@
 		display: inline;
 		font-weight: bold;
 		letter-spacing: rem-calc(0.5px);
-		color: $charcoal;
+		color: rgba(255,255,255,0.7);
 		font-size: rem-calc(12px);
 		margin: 0 0 0 5px;
 	}

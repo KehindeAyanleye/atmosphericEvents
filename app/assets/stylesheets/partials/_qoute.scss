@@ -46,6 +46,17 @@
 			font-weight: bold;
 			letter-spacing: 2px;
 			margin-top: rem-calc(50px);
+
+			.next-button, .prev-button {
+			  cursor:pointer;
+			  background-color: white;
+			  color: $atmosphericQouteBlue;
+			  font-weight: bold;
+			  letter-spacing: 2px;
+			}
+
 		}
 	}
 }
+
+
