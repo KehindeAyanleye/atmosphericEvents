@@ -1,7 +1,9 @@
 .main-footer{
-	background-color: $atmosphericDark;
+	// background-color: $atmosphericDark;
 	width: 100%;
 	padding: rem-calc(50px 0);
+	position: fixed;
+	z-index: 10;
 	
 	.footer-center{
 		text-align: center;
@@ -33,7 +35,7 @@
 		font-weight: bold;
 		letter-spacing: rem-calc(0.5px);
 		color: rgba(255,255,255,0.7);
-		font-size: rem-calc(12px);
+		font-size: rem-calc(7.5px);
 		margin: 0 0 0 5px;
 	}
 	
