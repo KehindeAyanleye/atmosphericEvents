@@ -25,7 +25,7 @@ Rails.application.configure do
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
-  config.assets.debug = false
+  config.assets.debug = true
 
   # Asset digests allow you to set far-future HTTP expiration dates on all assets,
   # yet still be able to expire them through the digest params.
@@ -40,6 +40,20 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
 
   config.assets.initialize_on_precompile = false
+
+  config.action_mailer.default :charset => "utf-8"
+  config.action_mailer.default_url_options = {:host => 'localhost:3000'}
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "gmail.com",
+    authentication: "plain",
+    enable_starttls_auto: true,
+    user_name: ENV["email"],
+    password: ENV["password"]
+  }
 
 end
 

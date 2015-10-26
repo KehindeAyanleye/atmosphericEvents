@@ -28,6 +28,9 @@ end
 	gem 'sprockets-rails', :require => 'sprockets/railtie'
 	gem 'oj'
 	gem 'masonry-rails'
+	gem 'simple_form'
+	gem 'mail_form'
+	gem "figaro"
 
 group :test do
 	gem 'capybara', '~> 2.5.0'

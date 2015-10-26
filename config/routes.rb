@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  # get 'messages/new'
+
+  # get 'messages/create'
+  resources "messages", only: [:new, :create]
+  
   get 'atmospheric_pages/home'
 
   get 'atmospheric_pages/gallery'
