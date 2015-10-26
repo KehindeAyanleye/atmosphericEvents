@@ -4,9 +4,7 @@ Rails.application.routes.draw do
   get 'atmospheric_pages/gallery'
   get 'atmospheric_pages/contact'
   get 'atmospheric_pages/about'
-  get 'atmospheric_pages/qoute'
   get 'atmospheric_pages/service'
-
   #Quote resources
   resources "quotes", only: [:new, :create]
 
