@@ -1,20 +1,14 @@
 Rails.application.routes.draw do
-  # get 'messages/new'
-
-  # get 'messages/create'
-  resources "messages", only: [:new, :create]
-  
+ 
   get 'atmospheric_pages/home'
-
   get 'atmospheric_pages/gallery'
-
   get 'atmospheric_pages/contact'
-
   get 'atmospheric_pages/about'
-
   get 'atmospheric_pages/qoute'
-
   get 'atmospheric_pages/service'
+
+  #Quote resources
+  resources "quotes", only: [:new, :create]
 
 
   # The priority is based upon order of creation: first created -> highest priority.

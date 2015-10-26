@@ -1,4 +1,4 @@
-class Message < MailForm::Base
+class Quote < MailForm::Base
 	attribute :firstname
 	attribute :surname
 	attribute :email
