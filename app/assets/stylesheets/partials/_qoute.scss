@@ -1,8 +1,18 @@
 .qouteWrapper{
 	background-color: $atmosphericYellow;
 	text-align: center;
-	height: 100vh;
+	height: 100%;
 	padding: rem-calc(100px 0 25px 0);
+
+	@media #{$small-only}{
+	      padding-top: rem-calc(70px);
+	    }
+
+	h1{
+		@media #{$small-only}{
+	      font-size: 25px;
+	    }
+	}
 
 	.qoute-title{
 		font-family: 'Merriweather', serif; 
@@ -19,7 +29,14 @@
 		font-size: 18px;
 		font-family: 'Merriweather', serif; 
 		font-weight: 400;
+
+		@media #{$small-only}{
+	      padding: 0px 25px;
+	      font-size: 10px;
+	    }
+
 		span{font-weight: bold;}
+		p{margin-bottom: 0;}
 	}
 
 	.qoute-form-wrapper{
@@ -41,6 +58,10 @@
 				display: inline-block;
 				font-family: 'Merriweather', serif; 
 				font-weight: 200;
+
+				@media #{$small-only}{
+					font-size: 22px;
+				}
 			}
 		}
 		input[type="text"] {
@@ -51,6 +72,20 @@
 			letter-spacing: rem-calc(2px);
 			
 		}
+
+		input[type="submit"]{
+			background-color: white;
+			color: $atmosphericQouteBlue;
+			border-radius: 3px;
+			font-weight: 900;
+
+		}
+
+		input:not([type]), .qouteWrapper .qoute-form-wrapper textarea, input[type="email"], input[type="number"], input[type="tel"], input[type="time"], input[type="url"], textarea{@extend input[type="text"];}
+		input:not([type]), .qouteWrapper .qoute-form-wrapper textarea, input[type="email"], input[type="number"], input[type="tel"], input[type="time"], input[type="url"], textarea:focus{background-color:$atmosphericQouteBlue;}
+
+
+
 		textarea{
 			@extend input[type="text"];
 			height: 25vh;
@@ -71,6 +106,29 @@
 			}
 
 		}
+	}
+}
+
+
+.qoute-form-innerwrapper{
+background-color: $atmosphericQouteBlue;
+padding: rem-calc(10px 20px);
+margin: 50px 0 0 0;
+
+	@media #{$small-only}{
+		margin: 30px 20px 0 20px;
+	}
+
+}
+
+.additional-info{
+	label{
+	font-size: 20px;
+	margin: rem-calc(20px 0 0 0);
+
+	@media #{$small-only}{
+		font-size: 15px;
+	}
 	}
 }
 

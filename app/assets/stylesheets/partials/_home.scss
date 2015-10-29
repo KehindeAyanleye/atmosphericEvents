@@ -114,11 +114,15 @@
     color: white;
 
       @media #{$small-only}{
-      font-size: 16px;
+      font-size: 12px;
       }
 
       .homeinnerContentTop{
-        
+        padding: 0;
+
+        @media #{$small-only}{
+        padding: 0 20px;
+        }
       }
 
     .homeinnerContentBottom{
@@ -126,7 +130,7 @@
       font-size: 70px;
 
         @media #{$small-only}{
-        font-size: 45px;
+        font-size: 35px;
         }
 
     }

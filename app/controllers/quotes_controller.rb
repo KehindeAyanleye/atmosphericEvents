@@ -16,3 +16,7 @@ class QuotesController < ApplicationController
   	end
   end
 end
+
+
+
+

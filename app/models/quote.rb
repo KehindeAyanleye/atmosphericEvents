@@ -1,23 +1,13 @@
 class Quote < MailForm::Base
-	attribute :firstname
-	attribute :surname
+	attribute :fullname
 	attribute :email
 	attribute :phone
-	attribute :company
-	attribute :location
-
-	attribute :interest
-	attribute :services
-	attribute :deadline
-	attribute :budget
-	attribute :company
-	attribute :location
-
+	
 	def headers
 		{
 			:subject => "www.atmospehric.ng: Quotation",
 			:to => ENV["email"],
-			:from => %("#{firstname}" <#{email}>)
+			:from => %("#{fullname}" <#{email}>)
 		}
 	end
 end

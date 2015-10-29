@@ -1,41 +1,44 @@
 <% provide(:title, 'Contact') %> <!DOCTYPE html>
 
-<h1 class = "large-12 columns">
-CONTACT
-</h1>
 
-<hr>
+<div class = "moduler">
 
-<p>
-DESIGN IS OUR PASSION. WITH YOU AS OUR CLIENT, WE WILL AIM FOR ONLY EXCELLENT RESULTS. AN END PRODUCT WORTHY OF YOUR NAME.
-</p>
-
-<div class = "rows">
-
-	<div class = "large-3 columns">
-		<p>Atmospheric Events</p>
-		<p>9, Montgomery Road</p>
-		<p>Yaba, Lagos, Nigeria</p>
-		<p>+234 80634 72855</p>
-		<p>hello@atmosphericevents.com</p>
-		<i class = 'fa fa-facebook'></i>
-		<i class = 'fa fa-twitter'></i>
-		<i class = 'fa fa-instagram'></i>
-	</div>
-	
-	<div class = "large-9 columns">
-		<p>Send us your feedback - We value your opinion</p>
-		<div>Name</div>
-		<div>Phone Number</div>
-		<div>Email</div>
-		<div>Message</div>
-		<button>SEND</button>
+	<div class="moduler-image">
 	</div>
 
-</div>
+	<div class = "moduler-head">
+		<div class = "row">
+			<h1 class = "large-12 columns">
+				CONTACT
+				<hr>
+				<p>
+				DESIGN IS OUR PASSION. WITH YOU AS OUR CLIENT, WE WILL AIM FOR ONLY EXCELLENT RESULTS. AN END PRODUCT WORTHY OF YOUR NAME.
+				</p>
+			</h1>
+		</div>
+
+			
+		<div class = "row">
+
+			<div class = "large-4 columns address-wrapper">
+				<p>Atmospheric Events</p>
+				<p>9, Montgomery Road</p>
+				<p>Yaba, Lagos, Nigeria</p>
+				<p>+234 80634 72855</p>
+				<p>hello@atmosphericevents.com</p>
+				<i class = 'fa fa-facebook'></i>
+				<i class = 'fa fa-twitter'></i>
+				<i class = 'fa fa-instagram'></i>
+			</div>
+
+			<div class = "large-8 columns feedback-wrapper">
+				<%= render 'quotes/new' %>
+			</div>
+
+		</div>
 
 
-<div class = "rows">
+<!-- <div class = "row">
 
 	<div class = "large-4 columns">
 		<img src="">
@@ -58,4 +61,8 @@ DESIGN IS OUR PASSION. WITH YOU AS OUR CLIENT, WE WILL AIM FOR ONLY EXCELLENT RE
 		<button></button>
 	</div>
 
+</div> -->
+
+
+	</div>
 </div>

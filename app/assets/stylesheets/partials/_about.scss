@@ -1,0 +1,27 @@
+.about-content{
+	button{
+		float: right;
+		background-color: $atmosphericPink;
+
+		@media#{$small-only}{
+			float: none;
+		}
+	}
+}
+
+.about-thanks{
+	background-color:  $atmosphericYellow;
+	margin: 50px 0 0 0;
+
+	p{
+		text-align: center;
+		color: white;
+		font-family: 'Pacifico', cursive;
+		padding: 40px 0;
+		font-size: 25px;
+	}
+}
+
+.about-qoute{
+	text-align:center;
+}

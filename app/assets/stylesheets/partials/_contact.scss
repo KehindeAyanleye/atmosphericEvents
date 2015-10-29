@@ -1,0 +1,30 @@
+.address-wrapper{
+	background-color: white;
+	padding: rem-calc(50px);
+	border-radius: 3px;
+}
+.feedback-wrapper{
+	.qouteWrapper{padding:0; margin:0;}
+	.qoute-title{display:none;}
+	.qoute-title-content{display:none;}
+
+
+	.qoute-form-wrapper{
+
+	}
+
+	.qoute-form-innerwrapper{
+		background-color: none;
+		margin:0;
+		.qoute-form-head-title{
+			color:white;
+			margin-bottom: rem-calc(50px);
+			margin-top: rem-calc(25px);
+			p{
+				font-size: 20px;
+			}
+		}
+	}
+
+
+}
