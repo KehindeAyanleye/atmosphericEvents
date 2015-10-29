@@ -1,6 +1,9 @@
 .top-bar{
 	.title-area{
 		padding: rem-calc(15px 0);
+		@media #{$small-only}{
+	      padding: rem-calc(0);
+	    }
 		.logo{ background-repeat: no-repeat; background-size: contain; background-position: center; width: rem-calc(250px);}
 		ul{line-height: inherit;}
 	}
@@ -18,4 +21,16 @@
 
 .top-bar .toggle-topbar.menu-icon a{
 	color: $atmosphericBlack;
+}
+
+.contain-to-grid{
+	padding: 0;
+
+	@media #{$small-only}{
+      padding: rem-calc(10px);
+    }
+}
+
+.top-bar .toggle-topbar.menu-icon a span::after{
+	box-shadow: 0 0 0 1px $atmosphericBlack, 0 7px 0 1px $atmosphericBlack, 0 14px 0 1px $atmosphericBlack
 }
