@@ -1,0 +1,62 @@
+.service-content{
+	text-align: justify;
+
+	.service-image{
+	background-image: url("https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&fm=jpg&s=b91323d5c3f24a32a15a05ce7b122631");
+	width: 100%;
+	min-height: 200px;
+	max-height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+	h3{
+		font-size: 20px;
+		text-align: center;
+		margin: 25px 0;
+	}
+
+	p{
+		margin: 25px 0;
+	}
+
+	hr{
+		margin:0;
+	}
+	.service-qoute, .service-qoute-small{
+		text-align: center;
+		button{
+
+			background-color: $gainsboro;
+			color: $steel;
+			font-weight: 400;
+		}
+	}
+}
+
+.service-qoute{
+	display: none;
+	margin: 25px 0 50px 0;
+	@media#{$medium-only}{
+		display: block;
+	}
+
+	@media#{$small-only}{
+		display: block;
+	}
+}
+
+.service-qoute-small-wrapper{
+		text-align: center;
+	.service-qoute-small{
+		display: inline-block;
+
+		@media#{$medium-only}{
+			display: none;
+		}
+
+		@media#{$small-only}{
+			display: none;
+		}
+	}
+}
