@@ -17,5 +17,6 @@
 //= require jquery.slick
 //= require coloroverlay
 //= require_tree
+//= require jquery.collagePlus
 
 $(function() { $(document).foundation();});

@@ -27,10 +27,11 @@ end
 	gem "font-awesome-rails"
 	gem 'sprockets-rails', :require => 'sprockets/railtie'
 	gem 'oj'
-	gem 'masonry-rails'
 	gem 'simple_form'
 	gem 'mail_form'
 	gem "figaro"
+	gem 'masonry-rails', '~> 0.2.4'
+	gem 'collagePlus-rails', '~> 1.0'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'

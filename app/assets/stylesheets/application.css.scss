@@ -1,7 +1,9 @@
 @import "compass";
 @import "foundation_and_overrides";
-@import 'slick';
+@import "slick";
 @import "font-awesome";
+@import "transitions";
+
 
 
 //Partials
@@ -9,5 +11,5 @@
 @import "partials/base";
 
 //Home
-@import "atmospheric_pages"
+@import "atmospheric_pages";
 

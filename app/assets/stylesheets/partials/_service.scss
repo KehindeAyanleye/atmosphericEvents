@@ -2,12 +2,23 @@
 	text-align: justify;
 
 	.service-image{
-	background-image: url("https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&fm=jpg&s=b91323d5c3f24a32a15a05ce7b122631");
 	width: 100%;
 	min-height: 200px;
 	max-height: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	}
+
+	.service-img-one{
+	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0676-min.jpg");
+	}
+
+	.service-img-two{
+	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0591-min.jpg");
+	}
+
+	.service-img-three{
+	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0093-min.jpg");
 	}
 
 	h3{
