@@ -32,6 +32,7 @@ end
 	gem "figaro"
 	gem 'masonry-rails', '~> 0.2.4'
 	gem 'collagePlus-rails', '~> 1.0'
+	gem 'foundation-datetimepicker-rails'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
