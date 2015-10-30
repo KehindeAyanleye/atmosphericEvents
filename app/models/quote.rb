@@ -2,6 +2,9 @@ class Quote < MailForm::Base
 	attribute :fullname
 	attribute :email
 	attribute :phone
+	attribute :date
+	attribute :type
+	attribute :guest
 	
 	def headers
 		{
