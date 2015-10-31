@@ -34,6 +34,7 @@
 	hr{
 		margin:0;
 	}
+	
 	.service-qoute, .service-qoute-small{
 		text-align: center;
 		button{
@@ -43,31 +44,32 @@
 			font-weight: 400;
 		}
 	}
-}
 
-.service-qoute{
-	display: none;
-	margin: 25px 0 50px 0;
-	@media#{$medium-only}{
-		display: block;
-	}
 
-	@media#{$small-only}{
-		display: block;
-	}
-}
-
-.service-qoute-small-wrapper{
-		text-align: center;
-	.service-qoute-small{
-		display: inline-block;
-
+	.service-qoute{
+		display: none;
+		margin: 25px 0 50px 0;
 		@media#{$medium-only}{
-			display: none;
+			display: block;
 		}
 
 		@media#{$small-only}{
-			display: none;
+			display: block;
+		}
+	}
+
+	.service-qoute-small-wrapper{
+			text-align: center;
+		.service-qoute-small{
+			display: inline-block;
+
+			@media#{$medium-only}{
+				display: none;
+			}
+
+			@media#{$small-only}{
+				display: none;
+			}
 		}
 	}
 }
