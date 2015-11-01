@@ -15,7 +15,7 @@
 //= require foundation
 //= require turbolinks
 //= require jquery.slick
-//= require coloroverlay
+
 //= require_tree
 
 
