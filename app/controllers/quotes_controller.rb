@@ -9,7 +9,7 @@ class QuotesController < ApplicationController
   	if @quote.deliver
   		# flash.now[:error] = nil
   		flash[:notice] = "Thank you for your quote!"
-      redirect_to root_path
+      redirect_to new_quote_path
   	else
   		flash[:error] = "Cannot send quote."
   		render :new
