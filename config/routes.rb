@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
- 
+
+  resources :photos
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   get 'atmospheric_pages/home'
   get 'atmospheric_pages/gallery'
   get 'atmospheric_pages/contact'
