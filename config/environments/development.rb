@@ -44,7 +44,7 @@ Rails.application.configure do
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.default_url_options = {:host => 'localhost:3000'}
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
     address: "smtp.zoho.com",
@@ -53,9 +53,10 @@ Rails.application.configure do
     authentication: :plain,
     enable_starttls_auto: true,
     user_name: "hello@atmospheric.ng",
-    password: ENV["PASSWORD"],
-    ssl: true,
-    tls: true
+    password: "8Brain_8",
+    ssl: true, 
+    tls: true,
+    enable_starttls_auto: true
   }
   # config.action_mailer.smtp_settings = {
   #   address: "smtp.gmail.com",
@@ -65,7 +66,7 @@ Rails.application.configure do
   #   enable_starttls_auto: true,
   #   user_name: ENV["EMAIL"],
   #   password: ENV["PASSWORD"],
-  #   enable_starttls_auto: true,
+  #   enable_starttls_auto: true
   # }
 
 end
