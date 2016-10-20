@@ -1,0 +1,63 @@
+<% provide(:title, 'Quote') %> <!DOCTYPE html>
+
+<%= simform_for @quote do |f| %>
+	<% if @quote.errors.any? %>
+	    <div id="error_explanation">
+	      <h2>
+	        <%= "#{pluralize(@quote.errors.count, "error")} prohibited this message from being sent:" %>
+	      </h2>
+
+	      <ul>
+	        <% @quote.errors.full_messages.each do |msg| %>
+	          <li><%= msg %></li>
+	        <% end %>
+	      <ul>
+	    </div>
+	  <% end %>  
+		<div class = "qouteWrapper">
+			<h1 class = "large-12 columns qoute-title">
+			Request a free qoute
+			</h1>
+
+			<p class = "qoute-title-content">
+			Tell us in the following steps what you're looking for or send an e-mail to <span>info@atmosphericevents.com</span>
+			</p>
+
+
+			<section class = "qoute-form-wrapper">
+				<div class = "row">
+					<div class = "qoute-form-innerwrapper">
+
+					<div class = "qoute-form-head-title">
+						<p>Send us your feedback - We value your opinion</p>
+					</div>
+
+
+					<div class="large-12 columns">
+						<%= f.input :fullname, label: false, placeholder: "Fullname", error: "Name is mandatory, please specify one" %>
+					</div>
+
+
+					<div class="large-6 small-12 columns">
+						<%= f.input :email, label: false, placeholder: "Email", error: "Email is mandatory, please specify one" %>
+					</div>
+
+
+					<div class="large-6 small-12 columns">
+						<%= f.input :phone, label: false, placeholder: "Phone", error: "Phone is mandatory, please specify one" %>
+					</div>
+
+					
+					<div class="large-12 columns additional-info">
+						<label>Additional information (Brief description of your event)
+							<textarea></textarea>
+						</label>
+					</div>
+
+					<%= f.button :submit %>
+					
+					</div	>
+				</div	>
+			</section>
+		</div>
+<% end %>

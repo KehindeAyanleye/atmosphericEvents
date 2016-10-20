@@ -4,16 +4,21 @@ class QuotesController < ApplicationController
   end
 
   def create
-  	@quote = Quote.new(params[:quote])
-  	@quote.request = request
-  	if @quote.deliver
-  		# flash.now[:error] = nil
-  		flash[:notice] = "Thank you for your quote!"
-      redirect_to new_quote_path
+  	@quote = Quote.new(quote_params)
+  	
+  	if @quote.valid?
+      QuoteMailer.message_me(@quote).deliver_now
+  		redirect_to new_quote_path, notice: "Thank you for your quote."
   	else
   		flash[:error] = "Cannot send quote."
   		render :new
   	end
+  end
+
+  private
+
+  def quote_params
+    params.require(:quote).permit(:fullname, :email, :phone, :date, :type, :guest)
   end
 end
 

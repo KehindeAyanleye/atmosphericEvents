@@ -26,7 +26,6 @@ end
 	gem 'sprockets-rails', :require => 'sprockets/railtie'
 	gem 'oj'
 	gem 'simple_form'
-	gem 'mail_form'
 	gem "figaro"
 	gem 'masonry-rails', '~> 0.2.4'
 	gem 'collagePlus-rails', '~> 1.0'
