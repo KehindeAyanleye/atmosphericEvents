@@ -1,5 +1,5 @@
 class QuoteMailer < ApplicationMailer
-	default :to => ENV["EMAIL"]
+	default :to => "hello@atmospheric.ng"
 	
 	def message_me(msg)
 		@quote = msg
