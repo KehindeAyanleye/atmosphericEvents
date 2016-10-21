@@ -3,9 +3,9 @@ class QuoteMailer < ApplicationMailer
 	
 	def message_me(msg)
 		@quote = msg
-		mail from: @quote.email, subject: "New Quotation", 
+		mail from: "hello@atmospheric.ng", subject: "New Quotation", 
 		body: ["Event type: #{@quote.type}", "\n", "Number of guests: #{@quote.guest}", "\n", 
-			"Name: #{@quote.fullname}", "\n", "Phone: #{@quote.phone}"]
+			"Email: #{@quote.email}", "\n", "Name: #{@quote.fullname}", "\n", "Phone: #{@quote.phone}"]
 	end
 
 end

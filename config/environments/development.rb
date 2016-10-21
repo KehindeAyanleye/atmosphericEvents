@@ -55,7 +55,7 @@ Rails.application.configure do
     user_name: "hello@atmospheric.ng",
     password: "8Brain_8",
     ssl: true, 
-    tls: true,
+    # tls: true,
     enable_starttls_auto: true
   }
   # config.action_mailer.smtp_settings = {
