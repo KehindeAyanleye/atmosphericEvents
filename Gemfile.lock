@@ -138,6 +138,7 @@ GEM
       mime-types
       mimemagic (~> 0.3.0)
     pg (0.18.3)
+    puma (3.6.0)
     rack (1.6.4)
     rack-pjax (1.0.0)
       nokogiri (~> 1.5)
@@ -252,6 +253,7 @@ DEPENDENCIES
   oj
   paperclip (~> 5.0.0)
   pg (~> 0.18.3)
+  puma
   rails (= 4.2.1)
   rails_admin (~> 1.0)
   sass-rails (~> 5.0)
