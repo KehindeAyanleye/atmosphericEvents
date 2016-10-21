@@ -88,7 +88,7 @@ Rails.application.configure do
     domain: "zoho.com",
     authentication: :plain,
     enable_starttls_auto: true,
-    user_name: "hello@atmospheric.ng",
+    user_name: ENV["EMAIL"],
     password: ENV["PASSWORD"],
     ssl: true,
     tls: true
