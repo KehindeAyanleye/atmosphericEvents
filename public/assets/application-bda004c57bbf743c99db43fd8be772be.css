@@ -13984,14 +13984,14 @@ th.hide-for-touch {
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-/* line 7, /home/t/t<3t/ruby/lab/atmosphericEvents/app/assets/stylesheets/atmospheric_pages.css.scss */
+/* line 7, /home/t/t<3t/ruby/lab/atmosphericEvents/app/assets/stylesheets/pages.css.scss */
 body, html {
   height: 100%;
   margin: 0;
   background: #EFEFEF;
 }
 
-/* line 14, /home/t/t<3t/ruby/lab/atmosphericEvents/app/assets/stylesheets/atmospheric_pages.css.scss */
+/* line 14, /home/t/t<3t/ruby/lab/atmosphericEvents/app/assets/stylesheets/pages.css.scss */
 #content {
   min-height: 80%;
   /* equal to footer height */
