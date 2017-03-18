@@ -51,10 +51,9 @@ Rails.application.configure do
     port: 465,
     domain: "zoho.com",
     authentication: :plain,
-    enable_starttls_auto: true,
     user_name: ENV["EMAIL"],
     password: ENV["PASSWORD"],
-    ssl: true, 
+    ssl: true,
     # tls: true,
     enable_starttls_auto: true
   }

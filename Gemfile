@@ -4,7 +4,6 @@ gem 'rails', '4.2.1'
 
 
 group :development, :test do
-	gem 'sqlite3', '~> 1.3.10'
 	# gem 'rspec-rails',      ">= 2.0.0.beta"
 	# gem 'guard-rspec', '~> 4.6.4'
 	gem 'better_errors', '~> 2.1', '>= 2.1.1'
@@ -31,14 +30,11 @@ end
 	gem 'collagePlus-rails', '~> 1.0'
 	gem 'foundation-datetimepicker-rails'
 	gem 'puma'
+	gem 'pg'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
 	# gem 'rb-fsevent', '~> 0.9.6'
-end
-
-group :production do
-	gem 'pg', '~> 0.18.3'
 end
 
 gem 'turbolinks'
