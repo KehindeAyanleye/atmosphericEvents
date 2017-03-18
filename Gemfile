@@ -34,6 +34,7 @@ end
 	gem 'carrierwave', '~> 0.9'
 	gem 'carrierwave-dropbox'
 	gem 'mini_magick'
+	gem 'rails_admin', '~> 1.1.1'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
@@ -45,5 +46,3 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
-gem 'rails_admin', '~> 1.0'
