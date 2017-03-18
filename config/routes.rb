@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   resources :photos
-  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+  mount RailsAdmin::Engine => '/moana', as: 'rails_admin'
   get 'pages/home'
   get 'pages/gallery'
   get 'pages/contact'
