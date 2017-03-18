@@ -1,26 +1,26 @@
 .moduler{
 	.moduler-image{
-	width: 100%;
-	min-height: 400px;
-	max-height: 400px;
-	background-size: cover;
-	background-repeat: no-repeat;
+		width: 100%;
+		min-height: 400px;
+		max-height: 400px;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 
 	.gallery-home-image{
-	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0591-min.jpg");
+		background-image: url("https://dl.dropboxusercontent.com/s/k2jut1a6szlq3pm/DSC_0591-min.jpg?dl=0");
 	}
 
 	.service-home-image{
-	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0689-min.jpg");
+		background-image: url("https://dl.dropboxusercontent.com/s/gd2eig8zq40qy3j/DSC_0689-min.jpg?dl=0");
 	}
 
 	.about-home-image{
-	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/DSC_0750-min.jpg");
+		background-image: url("https://dl.dropboxusercontent.com/s/ml61byuh91uuxup/DSC_0750-min.jpg?dl=0");
 	}
 
 	.contact-home-image{
-	background-image: url("https://s3-us-west-2.amazonaws.com/stutern/atmospheric/ae_img_five-min.png");
+		background-image: url("https://dl.dropboxusercontent.com/s/augv1trkfqf44m5/ae_img_five-min.png?dl=0");
 	}
 
 	.moduler-head{
@@ -32,30 +32,30 @@
 			max-width: 68%;
 			@media#{$small-only}{
 				font-size: 30px;
-				
+
 			}
 
 			hr{
-			border: solid $atmosphericPink;
-			border-top-color: rgb(255, 9, 66);
-		    border-top-style: solid;
-		    border-top-width: 1px;
-		    border-right-color: rgb(255, 9, 66);
-		    border-right-style: solid;
-		    border-right-width: 0px;
-		    border-bottom-color: rgb(255, 9, 66);
-		    border-bottom-style: solid;
-		    border-bottom-width: 0px;
-		    border-left-color: rgb(255, 9, 66);
-		    border-left-style: solid;
-		    border-left-width: 0px;
-			margin-top: 0;
+				border: solid $atmosphericPink;
+				border-top-color: rgb(255, 9, 66);
+				border-top-style: solid;
+				border-top-width: 1px;
+				border-right-color: rgb(255, 9, 66);
+				border-right-style: solid;
+				border-right-width: 0px;
+				border-bottom-color: rgb(255, 9, 66);
+				border-bottom-style: solid;
+				border-bottom-width: 0px;
+				border-left-color: rgb(255, 9, 66);
+				border-left-style: solid;
+				border-left-width: 0px;
+				margin-top: 0;
 			}
 			p{
 				font-size: rem-calc(13px);
 			}
 		}
-		
+
 		button{
 			float: right;
 			background-color: $atmosphericPink;
