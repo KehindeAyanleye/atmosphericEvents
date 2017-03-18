@@ -31,6 +31,9 @@ end
 	gem 'foundation-datetimepicker-rails'
 	gem 'puma'
 	gem 'pg'
+	gem 'carrierwave', '~> 0.9'
+	gem 'carrierwave-dropbox'
+	gem 'mini_magick'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
@@ -44,4 +47,3 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_admin', '~> 1.0'
-gem "paperclip", "~> 5.0.0"
