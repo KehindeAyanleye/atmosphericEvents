@@ -35,6 +35,7 @@ end
 	gem 'carrierwave-dropbox'
 	gem 'mini_magick'
 	gem 'rails_admin', '~> 1.1.1'
+	gem 'will_paginate', '~> 3.1.0'
 
 group :test do
 	gem 'capybara', '~> 2.5.0'
